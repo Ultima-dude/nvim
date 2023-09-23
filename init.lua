@@ -1,0 +1,2 @@
+require("Ultima")
+print("Hello")
