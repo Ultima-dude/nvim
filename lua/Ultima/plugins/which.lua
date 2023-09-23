@@ -13,6 +13,7 @@ return{
 			["<leader>c"] = { name = "+[C]ode" },
 			["<leader>d"] = { name = "+[D]ocument" },
 			["<leader>g"] = { name = "+[G]it" },
+			["<leader>p"] = { name = "+[P]roject" },
 			["<leader>s"] = { name = "+[S]earch" },
 			["<leader>sn"] = { name = "+[N]oice" },
 			["<leader>t"] = { name = "+[T]odo" },
