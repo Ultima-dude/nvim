@@ -1,2 +1,1 @@
 require("Ultima")
-print("Hello")

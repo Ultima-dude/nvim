@@ -5,6 +5,14 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "Project [V]iew"})
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+--Buffer Move
+vim.keymap.set('n', "<S-h>", vim.cmd.bp)
+vim.keymap.set('n', "<S-l>", vim.cmd.bn)
+
+--Window Move
+vim.keymap.set('n', '<C-h>', "<C-w>h")
+vim.keymap.set('n', '<C-l>', "<C-w>l")
+
 --copy to clipboard
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
