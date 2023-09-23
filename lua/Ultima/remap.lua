@@ -2,6 +2,7 @@
 vim.keymap.set('n', '<leader>gl', ":Git log<cr>", { desc = "git [L]og" });
 vim.keymap.set('n', '<leader>ga', ":Git add", { desc = "git [A]dd" });
 vim.keymap.set('n', '<leader>gc', ":Git commit", { desc = "git [C]ommit" });
+vim.keymap.set('n', '<leader>gp', ":Git push", { desc = "git [P]ush" });
 
 -- Good ol netrw
 vim.keymap.set("n", "<leader>pv", ":Ex", { desc = "Project [V]iew"})
