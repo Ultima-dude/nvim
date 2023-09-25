@@ -31,7 +31,7 @@ vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 -- Neotree toggle
 -- NOTE: vim.cmd will automaticly open neotree on open
-vim.keymap.set("n", "<leader>pt", vim.cmd.Neotree({ args = { 'toggle' }}), { desc = "Neo [T]ree toggle"})
+vim.keymap.set("n", "<leader>pt", ':Neotree toggle<cr>', { desc = "Neo [T]ree toggle"})
 
 -- Undotree toggle
 vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle, { desc = "[U]ndotree" })
